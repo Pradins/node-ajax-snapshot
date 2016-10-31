@@ -1,19 +1,99 @@
 {
-  "name": "node-ajax-snapshot",
-  "version": "0.0.5",
-  "description": "Nodejs wrapper of phantomjs-ajax-snapshot, generates static pages from ajax / non-ajax source pages and allows stripping of DOM elements identifying them by id, class, name or meta-property (only for meta tags).",
-  "main": "index.js",
+  "_args": [
+    [
+      {
+        "raw": "node-ajax-snapshot@0.0.5",
+        "scope": null,
+        "escapedName": "node-ajax-snapshot",
+        "name": "node-ajax-snapshot",
+        "rawSpec": "0.0.5",
+        "spec": "0.0.5",
+        "type": "version"
+      },
+      "C:\\repos\\internacional"
+    ]
+  ],
+  "_from": "node-ajax-snapshot@0.0.5",
+  "_id": "node-ajax-snapshot@0.0.5",
+  "_inCache": true,
+  "_location": "/node-ajax-snapshot",
+  "_nodeVersion": "5.10.1",
+  "_npmOperationalInternal": {
+    "host": "packages-16-east.internal.npmjs.com",
+    "tmp": "tmp/node-ajax-snapshot-0.0.5.tgz_1463054510041_0.8334864245261997"
+  },
+  "_npmUser": {
+    "name": "ericzon",
+    "email": "ericzon@gmail.com"
+  },
+  "_npmVersion": "3.5.2",
+  "_phantomChildren": {
+    "async": "2.0.1",
+    "aws-sign2": "0.6.0",
+    "caseless": "0.11.0",
+    "combined-stream": "1.0.5",
+    "extend": "3.0.0",
+    "extract-zip": "1.5.0",
+    "forever-agent": "0.6.1",
+    "graceful-fs": "4.1.9",
+    "har-validator": "2.0.6",
+    "hasha": "2.2.0",
+    "hawk": "3.1.3",
+    "http-signature": "1.1.1",
+    "is-typedarray": "1.0.0",
+    "isstream": "0.1.2",
+    "json-stringify-safe": "5.0.1",
+    "jsonfile": "2.4.0",
+    "kew": "0.7.0",
+    "klaw": "1.3.0",
+    "mime-types": "2.1.12",
+    "node-uuid": "1.4.7",
+    "oauth-sign": "0.8.2",
+    "path-is-absolute": "1.0.1",
+    "progress": "1.1.8",
+    "readable-stream": "2.0.6",
+    "request-progress": "2.0.1",
+    "rimraf": "2.5.4",
+    "stringstream": "0.0.5",
+    "tunnel-agent": "0.4.3",
+    "which": "1.2.11"
+  },
+  "_requested": {
+    "raw": "node-ajax-snapshot@0.0.5",
+    "scope": null,
+    "escapedName": "node-ajax-snapshot",
+    "name": "node-ajax-snapshot",
+    "rawSpec": "0.0.5",
+    "spec": "0.0.5",
+    "type": "version"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/node-ajax-snapshot/-/node-ajax-snapshot-0.0.5.tgz",
+  "_shasum": "b88be413344903a10faa078169cc99c3fff7ea48",
+  "_shrinkwrap": null,
+  "_spec": "node-ajax-snapshot@0.0.5",
+  "_where": "C:\\repos\\internacional",
+  "author": {
+    "name": "Eric Lara",
+    "email": "ericzon@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/ericzon/node-ajax-snapshot/issues"
+  },
   "dependencies": {
     "phantomjs": "^1.9.13"
   },
+  "description": "Nodejs wrapper of phantomjs-ajax-snapshot, generates static pages from ajax / non-ajax source pages and allows stripping of DOM elements identifying them by id, class, name or meta-property (only for meta tags).",
   "devDependencies": {},
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "directories": {},
+  "dist": {
+    "shasum": "b88be413344903a10faa078169cc99c3fff7ea48",
+    "tarball": "https://registry.npmjs.org/node-ajax-snapshot/-/node-ajax-snapshot-0.0.5.tgz"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/ericzon/node-ajax-snapshot"
-  },
+  "gitHead": "9db811279246facfc790c7845772e50f24746e27",
+  "homepage": "https://github.com/ericzon/node-ajax-snapshot",
   "keywords": [
     "node",
     "nodejs",
@@ -25,10 +105,23 @@
     "spa",
     "html"
   ],
-  "author": "Eric Lara <ericzon@gmail.com>",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/ericzon/node-ajax-snapshot/issues"
+  "main": "index.js",
+  "maintainers": [
+    {
+      "name": "ericzon",
+      "email": "ericzon@gmail.com"
+    }
+  ],
+  "name": "node-ajax-snapshot",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ericzon/node-ajax-snapshot.git"
   },
-  "homepage": "https://github.com/ericzon/node-ajax-snapshot"
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "0.0.5"
 }
